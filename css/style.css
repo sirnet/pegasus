@@ -17,3 +17,17 @@ body {
     line-height: 24px;
     font-weight: 400;
 }
+
+.visually-hidden {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
